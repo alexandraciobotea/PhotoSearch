@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".CameraFragment">
+
+
+    <TextureView
+        android:id="@+id/textureView"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:keepScreenOn="true"
+        android:opacity="translucent" />
+
+
+
+    <ImageView
+        android:id="@+id/camera_flash_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:visibility="gone" />
+
+    <ro.upt.cs.photosearch.PlacesView
+        android:id="@+id/placesView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="25dp"
+        android:background="@color/primary" >
+    </ro.upt.cs.photosearch.PlacesView>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/croutonview"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_alignParentBottom="true">-->
+
+    <!--</LinearLayout>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/display_coordinates"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="55dp"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginStart="0dp"-->
+        <!--android:textSize="15sp"-->
+        <!--android:layout_marginLeft="0dp"-->
+        <!--android:layout_marginBottom="0dp"-->
+        <!--android:background="@color/primary" />-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/photo_button"-->
+        <!--android:layout_width="wrap_content"-->
+
+        <!--android:layout_height="53dp"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginLeft="15dp"-->
+        <!--android:layout_marginRight="15dp"-->
+
+        <!--android:layout_alignBottom="@+id/surfaceView"-->
+        <!--android:background="@color/primary"-->
+        <!--android:src="@drawable/icons8_round_filled_64"/>-->
+
+    </RelativeLayout>
+
+

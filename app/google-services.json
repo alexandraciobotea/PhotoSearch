@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "763994150635",
+    "firebase_url": "https://photosearch-7fe72.firebaseio.com",
+    "project_id": "photosearch-7fe72",
+    "storage_bucket": "photosearch-7fe72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763994150635:android:61c2609bd556230f",
+        "android_client_info": {
+          "package_name": "ro.upt.cs.photosearch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763994150635-cv2u7vs189i7228h011rujovjfuallqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjDzYvHA-vOfEa54LKSosgCtYsZYeaZ-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763994150635-cv2u7vs189i7228h011rujovjfuallqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
